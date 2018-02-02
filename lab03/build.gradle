@@ -1,17 +1,9 @@
 apply plugin: 'java'
 
 repositories {
-	mavenCentral();
+	mavenCentral()
 }
 
 dependencies {
 	compile 'org.apache.commons:commons-csv:1.5'
-}
-
-jar {
-	manifest {
-		attributes (
-			'Main-Class': 'CSVDemo'
-			)
-	}
 }
