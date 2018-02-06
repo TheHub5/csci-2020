@@ -1,7 +1,8 @@
 *.class
 *.jar
-
 */build/*
 */.gradle/*
-
-
+*.swp
+*.ods
+*.~lock.*.ods#
+*.csv
