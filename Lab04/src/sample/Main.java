@@ -11,7 +11,6 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-import java.util.PrimitiveIterator;
 
 public class Main extends Application {
     private TextField uName; // username field
