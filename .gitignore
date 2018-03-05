@@ -2,6 +2,8 @@
 *.jar
 */build/*
 */.gradle/*
+*/out/*
+*/.idea/*
 *.swp
 *.ods
 *.~lock.*.ods#
