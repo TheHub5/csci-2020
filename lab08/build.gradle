@@ -1,0 +1,14 @@
+apply plugin: 'java';
+
+task (run, type:JavaExec, dependsOn: 'classes') {
+	main = 'Lab08.Lab08Demo'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'Lab08.Lab08Demo',
+		'Implementationi-Title': 'Lab08'
+	}
+}
