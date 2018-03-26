@@ -1,0 +1,14 @@
+apply plugin: 'java';
+
+task (run, type:JavaExec, dependsOn: 'classes') {
+	main = 'Lab09Demo'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'com.google.code.gson:gson:2.8.2'
+}
